@@ -4,6 +4,8 @@ void setup() {
 }
 
 void loop() {
-  value = analogRead(A0);
-  Serial.println(val);
+  // get a value
+  float value = analogRead(A0);
+  //print the value
+  Serial.println(value);
 }
